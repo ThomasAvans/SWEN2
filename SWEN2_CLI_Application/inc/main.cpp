@@ -1,12 +1,12 @@
 #include <iostream> 
 #include <cstdlib>
 #include <ctime>
-#include "FillArray.h"
+#include "../src/FillArray.h"
 
 
 using namespace std;
 
-fillArray fillMyArray;
+FillArray fillMyArray;
 
 int main()
 {
