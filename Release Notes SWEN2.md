@@ -45,3 +45,15 @@
 
 - Added bubble sort test file
 
+
+
+## v0.6-beta
+
+**Added**
+
+- Added fill array test file
+
+**Improved**
+
+- Improved main file to incorporate fill array test file
+
