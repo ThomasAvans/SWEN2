@@ -57,3 +57,25 @@
 
 - Improved main file to incorporate fill array test file
 
+
+
+## v0.6.1-beta
+
+**Hotfix**
+
+- Fixed project not running
+- Fixed files not being found
+
+
+
+## v0.7-beta
+
+**Added**
+
+- Added heap sort test file
+- Added merge sort test file
+
+**Improved**
+
+- Improved bubble sort header file
+
