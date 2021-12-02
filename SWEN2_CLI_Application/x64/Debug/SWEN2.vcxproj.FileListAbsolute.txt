@@ -1,0 +1,2 @@
+R:\Frustratie\SWEN2\SWEN2_CLI_Application\x64\Debug\SWEN2.exe
+R:\Frustratie\SWEN2\SWEN2_CLI_Application\x64\Debug\SWEN2.pdb
