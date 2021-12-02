@@ -1,4 +1,4 @@
-# Release Notes 
+# Release Notes SWEN2
 
 ## v0.1-alpha
 
