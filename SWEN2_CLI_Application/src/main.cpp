@@ -1,7 +1,7 @@
 #include <iostream> 
 #include <cstdlib>
 #include <ctime>
-#include "fillArray.h"
+#include "../inc/fillArray.h"
 
 
 using namespace std;

@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\bubbleSort.cpp" />
+    <ClCompile Include="..\src\fillArray.cpp" />
+    <ClCompile Include="..\src\heapSort.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\mergeSort.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\bubbleSort.h" />
+    <ClInclude Include="..\inc\fillArray.h" />
+    <ClInclude Include="..\inc\heapSort.h" />
+    <ClInclude Include="..\inc\mergeSort.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,19 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\inc\main.cpp" />
-    <ClCompile Include="bubbleSort.cpp" />
-    <ClCompile Include="fillArray.cpp" />
-    <ClCompile Include="heapSort.cpp" />
-    <ClCompile Include="mergeSort.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="bubbleSort.h" />
-    <ClInclude Include="fillArray.h" />
-    <ClInclude Include="heapSort.h" />
-    <ClInclude Include="mergeSort.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,11 +1,8 @@
 ﻿  bubbleSort.cpp
-c1xx : fatal error C1083: Cannot open source file: 'bubbleSort.cpp': No such file or directory
   fillArray.cpp
-c1xx : fatal error C1083: Cannot open source file: 'fillArray.cpp': No such file or directory
+R:\Frustratie\SWEN2\SWEN2_CLI_Application\src\fillArray.cpp(15,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   heapSort.cpp
-c1xx : fatal error C1083: Cannot open source file: 'heapSort.cpp': No such file or directory
   main.cpp
-c1xx : fatal error C1083: Cannot open source file: 'main.cpp': No such file or directory
   mergeSort.cpp
-c1xx : fatal error C1083: Cannot open source file: 'mergeSort.cpp': No such file or directory
   Generating Code...
+  SWEN2.vcxproj -> R:\Frustratie\SWEN2\SWEN2_CLI_Application\SWEN2_CLI_Application\x64\Debug\SWEN2.exe

@@ -1,4 +1,4 @@
-#include "heapSort.h"
+#include "../inc/heapSort.h"
 #include <iostream> 
 
 using namespace std;

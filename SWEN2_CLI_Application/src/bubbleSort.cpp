@@ -1,4 +1,4 @@
-#include "bubbleSort.h"
+#include "../inc/bubbleSort.h"
 #include<iostream>
 
 using namespace std;

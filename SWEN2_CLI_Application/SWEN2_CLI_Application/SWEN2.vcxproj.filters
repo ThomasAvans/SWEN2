@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bubbleSort.cpp">
+    <ClCompile Include="..\src\bubbleSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fillArray.cpp">
+    <ClCompile Include="..\src\fillArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="heapSort.cpp">
+    <ClCompile Include="..\src\heapSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mergeSort.cpp">
+    <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\inc\main.cpp">
+    <ClCompile Include="..\src\mergeSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bubbleSort.h">
+    <ClInclude Include="..\inc\bubbleSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="fillArray.h">
+    <ClInclude Include="..\inc\fillArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="heapSort.h">
+    <ClInclude Include="..\inc\heapSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mergeSort.h">
+    <ClInclude Include="..\inc\mergeSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

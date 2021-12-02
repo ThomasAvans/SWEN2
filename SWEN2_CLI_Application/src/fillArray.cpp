@@ -1,4 +1,4 @@
-#include "fillArray.h"
+#include "../inc/fillArray.h"
 
 #include <iostream>
 #include <cstdlib>
