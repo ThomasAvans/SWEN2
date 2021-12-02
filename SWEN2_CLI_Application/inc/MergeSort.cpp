@@ -1,9 +1,9 @@
-#include "MergeSort.h"
+#include "mergeSort.h"
 #include <iostream>
 using namespace std;
 
 // Merge sort 
-void MergeSort::merge(int* arr, int low, int high, int mid)
+void mergeSort::merge(int* arr, int low, int high, int mid)
 {
     int i, j, k, c[50];
     i = low;
@@ -36,7 +36,7 @@ void MergeSort::merge(int* arr, int low, int high, int mid)
     }
 }
 
-void MergeSort::merge_sort(int* arr, int low, int high)
+void mergeSort::merge_sort(int* arr, int low, int high)
 {
     int mid;
     if (low < high) {
@@ -53,7 +53,7 @@ void MergeSort::merge_sort(int* arr, int low, int high)
 
 
 
-void MergeSort::printArray(int arr[], int size)
+void mergeSort::printArray(int arr[], int size)
 {
     int i;
     for (i = 0; i < size; i++)

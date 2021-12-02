@@ -1,11 +1,11 @@
-#include "HeapSort.h"
+#include "heapSort.h"
 #include <iostream> 
 
 using namespace std;
 
 // To heapify a subtree rooted with node i which is 
 // an index in arr[]. n is size of heap 
-void HeapSort::heapify(int arr[], int n, int i)
+void heapSort::heapify(int arr[], int n, int i)
 {
     int largest = i; // Initialize largest as root 
     int l = 2 * i + 1; // left = 2*i + 1 
@@ -29,7 +29,7 @@ void HeapSort::heapify(int arr[], int n, int i)
 }
 
 // main function to do heap sort 
-void HeapSort::heapSorting(int arr[], int n)
+void heapSort::heapSorting(int arr[], int n)
 {
     // Build heap (rearrange array) 
     for (int i = n / 2 - 1; i >= 0; i--)
@@ -46,7 +46,7 @@ void HeapSort::heapSorting(int arr[], int n)
 }
 
 /* A utility function to print array of size n */
-void HeapSort::printArray(int arr[], int n)
+void heapSort::printArray(int arr[], int n)
 {
     for (int i = 0; i < n; ++i)
         cout << arr[i] << " ";

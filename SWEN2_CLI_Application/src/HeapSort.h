@@ -1,6 +1,6 @@
 #pragma once
 
-class HeapSort
+class heapSort
 {
 public:
 	void heapify(int arr[], int n, int i);

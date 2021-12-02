@@ -1,4 +1,4 @@
-#include "FillArray.h"
+#include "fillArray.h"
 
 #include <iostream>
 #include <cstdlib>
@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void FillArray::arrayFiller()
+void fillArray::arrayFiller()
 {
     int i;
     cout << "The unsorted array: ";

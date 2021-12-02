@@ -1,17 +1,12 @@
 #pragma once
 
-class BubbleSort
+class bubbleSort
 {
-<<<<<<< HEAD
-    BubbleSort();
-    virtual ~BubbleSort();
-    
-};
-=======
+	bubbleSort();
+	virtual ~bubbleSort();
 public:
 	void swapping(int& a, int& b);
 	void printSorted(int* array, int size);
 	void sort(int* array, int size);
->>>>>>> origin/Feature_F2
 
 };

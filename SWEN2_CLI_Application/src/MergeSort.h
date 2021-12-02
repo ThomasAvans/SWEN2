@@ -1,5 +1,5 @@
 #pragma once
-class MergeSort
+class mergeSort
 {
 public:
 	void merge(int* arr, int low, int high, int mid);

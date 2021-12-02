@@ -1,16 +1,16 @@
-#include "BubbleSort.h"
+#include "bubbleSort.h"
 #include<iostream>
 
 using namespace std;
 
-void BubbleSort::swapping(int& a, int& b) {
+void bubbleSort::swapping(int& a, int& b) {
     int temp;
     temp = a;
     a = b;
     b = temp;
 }
 
-void BubbleSort::sort(int* array, int size) {
+void bubbleSort::sort(int* array, int size) {
     for (int i = 0; i < size; i++) {
         int swaps = 0;         //flag to detect any swap is there or not
         for (int j = 0; j < size - i - 1; j++) {
@@ -24,7 +24,7 @@ void BubbleSort::sort(int* array, int size) {
     }
 }
 
-void BubbleSort::printSorted(int* array, int size) {
+void bubbleSort::printSorted(int* array, int size) {
     for (int i = 0; i < size; i++)
         cout << array[i] << " ";
     cout << endl;
