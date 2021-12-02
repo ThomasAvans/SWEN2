@@ -79,3 +79,13 @@
 
 - Improved bubble sort header file
 
+
+
+## v1.0
+
+**Improved**
+
+- Improved main file to incorporate all test files
+
+- Improved .h test files
+
