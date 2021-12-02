@@ -24,12 +24,20 @@
     <ClCompile Include="..\src\heapSort.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\mergeSort.cpp" />
+    <ClCompile Include="..\tst\BubbleSortTest.cpp" />
+    <ClCompile Include="..\tst\FillArrayTest.cpp" />
+    <ClCompile Include="..\tst\HeapSortTest.cpp" />
+    <ClCompile Include="..\tst\MergeSortTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\inc\bubbleSort.h" />
     <ClInclude Include="..\inc\fillArray.h" />
     <ClInclude Include="..\inc\heapSort.h" />
     <ClInclude Include="..\inc\mergeSort.h" />
+    <ClInclude Include="..\tst\BubbleSortTest.h" />
+    <ClInclude Include="..\tst\FillArrayTest.h" />
+    <ClInclude Include="..\tst\HeapSortTest.h" />
+    <ClInclude Include="..\tst\MergeSortTest.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
