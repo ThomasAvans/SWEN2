@@ -5,10 +5,12 @@
 #include "BubbleSort.h"
 #include "HeapSort.h"
 #include "MergeSort.h"
+#include "../tst/FillArrayTest.h"
 
 using namespace std;
 
 FillArray fillMyArray;
+FillArrayTest fillTest;
 BubbleSort bubblesort;
 HeapSort heapsort;
 MergeSort mergeSort;
@@ -20,8 +22,18 @@ int main()
     fillMyArray.arrayFiller();
     int *arr = fillMyArray.array;
 
-    //Bubble sorter
+    //To check FillArray
     int n = (sizeof(int) * 30) / sizeof(arr[0]);
+    int check = fillTest.arrayChecker(arr, n);
+    if (check < 0) {
+        cout << "FillArray test Failed" << endl;
+    }
+    else {
+        cout << "FillArray test succeeded" << endl;
+    }
+    cout << "\n";
+
+    //Bubble sorter
     fillMyArray.arrayFiller();
     int* arr2 = fillMyArray.array;
     
@@ -48,7 +60,6 @@ int main()
 
     cout << "Merge sorted array:\n";
     mergeSort.printArray(arr3, n);
-    cout << "\n";
 
     return 0;
 }
